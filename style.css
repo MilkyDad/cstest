@@ -1,0 +1,66 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: none;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: snow;
+    color: black;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.main {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.testHead {
+    font-size: 20pt;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.testBody {
+    margin: 7px;
+}
+
+.testFooter {
+    display: block;
+    width: 100%;
+}
+
+.footerInner {
+    padding: 3.5px;
+}
+
+.button {
+    text-align: center;
+    border-radius: 15px;
+    background: orangered;
+    color: white;
+    padding: 10px 25px;
+    width: 50%;
+    cursor: progress;
+    margin: 5px auto;
+    display: block;
+}
+
+.rightBtn {
+    background: rgb(48, 209, 48);
+}
+
+.wrongBtn {
+    background: rgb(224, 52, 52);
+}
+
+.nonActiveBtn {
+    background: gray;
+}
